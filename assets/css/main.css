@@ -64,7 +64,7 @@ section {
 }
 
 .services .box {
-  padding: 30px;
+  padding: 10px;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -156,19 +156,25 @@ section {
   animation: fadeIn 0.5s ease-out;
 }
 
-.departments .details h3 {
-  font-size: 26px;
+.departments .tab-pane .title {
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 22px;
+  font-weight: 700;
+
+}
+
+.departments .tab-pane .text {
+  background-image: linear-gradient(to right, #d7d2cc 0%, #5d707d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 17px;
   font-weight: 600;
-  margin-bottom: 20px;
-  color: #2c4964;
-}
 
-.departments .details p {
-  color: #777777;
-}
-
-.departments .details p:last-child {
-  margin-bottom: 0;
+  text-align: justify;
 }
 
 @media (max-width: 992px) {
