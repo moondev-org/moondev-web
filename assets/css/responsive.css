@@ -1,0 +1,48 @@
+@media (max-width: 992px) {
+    section {
+        padding: 50px 0;
+    }
+
+    .about {
+
+        margin: 20px;
+
+    }
+
+    .about .head-title .title {
+
+        font-size: 28px;
+
+    }
+
+    .about .head-title .subtitle {
+
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .services {
+
+        padding: 0px 0 0px 0;
+
+    }
+
+    .services .box {
+
+        padding: 10px 0 0 0;
+
+    }
+
+    .departments .asd {
+
+        text-align: center;
+
+    }
+
+    .departments .tab-content {
+
+        padding: 20px 0 12px 0;
+
+    }
+}
