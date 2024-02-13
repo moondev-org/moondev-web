@@ -26,12 +26,13 @@ section {
 }
 
 .about {
-  background-color: rgba(0, 0, 0, 0.904);
+  background-color: rgba(0, 0, 0, 0.644);
 
   margin: 70px 200px 70px 200px;
 
-  border-radius: 20px;
+  border-radius: 100px;
   border-style: solid;
+  border-color: rgba(128, 128, 128, 0.219);
 }
 
 .about .head-title .title {
