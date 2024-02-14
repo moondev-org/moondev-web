@@ -2,6 +2,11 @@
   scroll-behavior: smooth;
 }
 
+::selection {
+  background-color: rgba(29, 29, 29, 0.436);
+  color: white;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -28,9 +33,9 @@ section {
 .about {
   background-color: rgba(0, 0, 0, 0.644);
 
-  margin: 70px 200px 70px 200px;
+  margin: 70px 170px 70px 170px;
 
-  border-radius: 100px;
+  border-radius: 30px;
   border-style: solid;
   border-color: rgba(128, 128, 128, 0.219);
 }
@@ -109,6 +114,7 @@ section {
 
 .departments .asd {
   justify-content: center;
+  align-items: center;
 
 }
 
@@ -138,6 +144,8 @@ section {
 
   font-size: 22px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
 .departments .nav-link:hover {
@@ -150,7 +158,7 @@ section {
 }
 
 .departments .tab-content {
-  padding: 20px 15px 12px 0;
+  padding: 10px 15px 12px 0;
 }
 
 .departments .tab-pane.active {
