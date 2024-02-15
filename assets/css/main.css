@@ -211,8 +211,7 @@ section {
 }
 
 .content .swiper-pagination {
-  margin-top: 20px;
-  position: absolute;
+  position: relative;
 }
 
 .content .swiper-pagination .swiper-pagination-bullet {
