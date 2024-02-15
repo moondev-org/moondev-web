@@ -185,7 +185,15 @@ section {
 
   text-align: justify;
 }
-
+.departments .tab-pane a{
+  text-decoration: none;
+  background-color: rgb(255, 242, 146);
+  font-size: 17px;
+  color: #2b2b2b;
+  font-weight: 600;
+  padding: 5px 80px 8px 80px;
+  border-radius: 4px;
+}
 @media (max-width: 992px) {
   .departments .nav-link {
     border: 0;
@@ -196,4 +204,24 @@ section {
     color: #fff;
     background: #1977cc;
   }
+}
+
+.content .gallery-content {
+  overflow: hidden;
+}
+
+.content .swiper-pagination {
+  margin-top: 20px;
+  position: absolute;
+}
+
+.content .swiper-pagination .swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+.content .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: rgb(255, 242, 146);
 }
