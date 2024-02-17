@@ -4,347 +4,250 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>moondev</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <link href="assets/img/icon-white.png" rel="icon">
-  <link href="assets/img/icon-white.png" rel="apple-touch-icon">
-
+  <link href="assets/img/fotos/icon-web.png" rel="icon">
+  <link href="assets/img/fotos/icon-web.png" rel="apple-touch-icon">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.css">
-  <link href="assets/css/variables.css" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <main id="main">
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
+  <header id="header" class="justify-content-center text-center align-items-center">
+    <div class="container">
 
-        <div class="head-title">
-          <p class="title">moondev portfolio</p>
-          <p class="subtitle">
-            somos una pequeña organización especializada en el desarrollo de páginas web de
-            <br>estilo landing, diseñadas específicamente para servidores de Minecraft, así como para
-            <br>portafolios, catálogos y foros de uso manual.
-          </p>
-        </div>
+      <h1><a href="index.html">moondev portfolio</a></h1>
+      <h2>Somos un pequeño equipo especializada en el <span>desarrollo</span> de
+        <br><span>páginas web</span> estilo landing para servidores de Minecraft, así como para
+        <br>portafolios, catálogos y foros manuales.
+      </h2>
 
-        <div class="services">
-          <div class="row g-5">
+      <nav id="navbar" class="navbar justify-content-center align-items-center">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
 
-            <div class="col-md-6 col-lg-4 wow bounceInUp">
-              <div class="box">
-                <div>
-                  <i class="bi bi-briefcase"></i>
-                </div>
-                <p class="title">Servicio 1</p>
-                <p class="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nam repellendus
-                  aspernatur.
-                </p>
-              </div>
-            </div>
+    </div>
+  </header>
 
-            <div class="col-md-6 col-lg-4 wow bounceInUp">
-              <div class="box">
-                <div>
-                  <i class="bi bi-briefcase"></i>
-                </div>
-                <p class="title">Servicio 1</p>
-                <p class="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nam repellendus
-                  aspernatur.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 wow bounceInUp">
-              <div class="box">
-                <div>
-                  <i class="bi bi-briefcase"></i>
-                </div>
-                <p class="title">Servicio 1</p>
-                <p class="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nam repellendus
-                  aspernatur.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="departments align-items-center">
-          <div class="row asd">
-            <div class="col-lg-2">
-              <ul class="nav nav-tabs flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">• Prisma</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">• Widow</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">• Guille</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4">• VicNix</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5">• Meteor</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-9">
-              <div class="tab-content">
-
-                <div class="tab-pane active show" id="tab-1">
-
-                  <div class="row gy-4 align-items-center">
-
-                    <div class="col-lg-7 details order-2 order-lg-1">
-                      <p class="title">Prisma</p>
-                      <p class="text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam dolorum tenetur officiis
-                        debitis autem, ullam omnis, rerum excepturi, tempore natus repellendus doloremque? Voluptate qui
-                        laudantium, dolorem alias impedit aliquid? Earum molestiae obcaecati nam dolor doloribus
-                        excepturi perferendis reiciendis neque, pariatur aperiam natus possimus soluta rem, temporibus
-                        esse at fuga fugiat!
-                      </p>
-                      <div class="text-center">
-                        <a href="">Ver Demo</a>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-5 text-center order-1 order-lg-2">
-                      <div class="content">
-                        <div class="portfolio-details-slider swiper gallery-content">
-                          <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Prisma/laptop.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Prisma/phone.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Prisma/tablet.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Prisma/pc.png" class="img-fluid" alt="">
-                            </div>
-
-                          </div>
-                          <div class="swiper-pagination"></div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <div class="tab-pane" id="tab-2">
-                  <div class="row gy-4 align-items-center">
-                    <div class="col-lg-7 details order-2 order-lg-1">
-                      <p class="title">Widow</p>
-                      <p class="text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam dolorum tenetur officiis
-                        debitis autem, ullam omnis, rerum excepturi, tempore natus repellendus doloremque? Voluptate qui
-                        laudantium, dolorem alias impedit aliquid? Earum molestiae obcaecati nam dolor doloribus
-                        excepturi perferendis reiciendis neque, pariatur aperiam natus possimus soluta rem, temporibus
-                        esse at fuga fugiat!
-                      </p>
-                      <div class="text-center">
-                        <a href="">Ver Demo</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-5 text-center order-1 order-lg-2">
-                      <div class="content">
-                        <div class="portfolio-details-slider swiper gallery-content">
-                          <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Widow/laptop.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Widow/phone.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Widow/tablet.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Widow/pc.png" class="img-fluid" alt="">
-                            </div>
-
-                          </div>
-                          <div class="swiper-pagination"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane" id="tab-3">
-                  <div class="row gy-4 align-items-center">
-                    <div class="col-lg-7 details order-2 order-lg-1">
-                      <p class="title">Guille</p>
-                      <p class="text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam dolorum tenetur officiis
-                        debitis autem, ullam omnis, rerum excepturi, tempore natus repellendus doloremque? Voluptate qui
-                        laudantium, dolorem alias impedit aliquid? Earum molestiae obcaecati nam dolor doloribus
-                        excepturi perferendis reiciendis neque, pariatur aperiam natus possimus soluta rem, temporibus
-                        esse at fuga fugiat!
-                      </p>
-                      <div class="text-center">
-                        <a href="">Ver Demo</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-5 text-center order-1 order-lg-2">
-                      <div class="content">
-                        <div class="portfolio-details-slider swiper gallery-content">
-                          <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Guille/laptop.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Guille/photone.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Guille/tablet.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Guille/pc.png" class="img-fluid" alt="">
-                            </div>
-
-                          </div>
-                          <div class="swiper-pagination"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane" id="tab-4">
-                  <div class="row gy-4 align-items-center">
-                    <div class="col-lg-7 details order-2 order-lg-1">
-                      <p class="title">VicNix</p>
-                      <p class="text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam dolorum tenetur officiis
-                        debitis autem, ullam omnis, rerum excepturi, tempore natus repellendus doloremque? Voluptate qui
-                        laudantium, dolorem alias impedit aliquid? Earum molestiae obcaecati nam dolor doloribus
-                        excepturi perferendis reiciendis neque, pariatur aperiam natus possimus soluta rem, temporibus
-                        esse at fuga fugiat!
-                      </p>
-                      <div class="text-center">
-                        <a href="">Ver Demo</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-5 text-center order-1 order-lg-2">
-                      <div class="content">
-                        <div class="portfolio-details-slider swiper gallery-content">
-                          <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/VicNix/laptop.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/VicNix/phone.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/VicNix/tablet.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/VicNix/pc.png" class="img-fluid" alt="">
-                            </div>
-
-                          </div>
-                          <div class="swiper-pagination"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane" id="tab-5">
-                  <div class="row gy-4 align-items-center">
-                    <div class="col-lg-7 details order-2 order-lg-1">
-                      <p class="title">Meteor</p>
-                      <p class="text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam dolorum tenetur officiis
-                        debitis autem, ullam omnis, rerum excepturi, tempore natus repellendus doloremque? Voluptate qui
-                        laudantium, dolorem alias impedit aliquid? Earum molestiae obcaecati nam dolor doloribus
-                        excepturi perferendis reiciendis neque, pariatur aperiam natus possimus soluta rem, temporibus
-                        esse at fuga fugiat!
-                      </p>
-                      <div class="text-center">
-                        <a href="">Ver Demo</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-5 text-center order-1 order-lg-2">
-                      <div class="content">
-                        <div class="portfolio-details-slider swiper gallery-content">
-                          <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Meteor/laptop.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Meteor/phone.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Meteor/tablet.png" class="img-fluid" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                              <img src="assets/img/mockup/Meteor/pc.png" class="img-fluid" alt="">
-                            </div>
-
-                          </div>
-                          <div class="swiper-pagination"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
+  <section id="about" class="about">
+    <div class="about-me container">
+      <div class="section-title text-center">
+        <h2>sobre mi</h2>
+        <p>APRENDE UN POCO SOBRE MI</p>
       </div>
-    </section>
+      <div class="row asd">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/fotos/16c.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>¡Hola!</h3>
+          <p class="fst-italic" style="margin: 0;">
+            Mi nombre es Anhaur Ruiz, pero también me conocen como myclass.
+          </p>
+          <p class="fst-italic">
+            Tengo 19 años y soy originario de México, específicamente de la ciudad de Veracruz.
+          </p>
+          <p>
+            Llevo exactamente un año dedicándome al desarrollo de páginas tipo "landing pages".
+          </p>
+          <p>
+            Disfruto mucho realizar
+            este tipo de trabajos, ya que cada uno representa un nuevo reto con las ideas de los clientes.
+          </p>
+          <p>
+            Me encanta explorar nuevas características de diseño que puedan facilitar la experiencia tanto para el
+            usuario como para el cliente.
+          </p>
+          <p>
+            Estoy constantemente buscando maneras de ayudar con ideas innovadoras que mejoren el diseño
+            y la funcionalidad de las páginas.
+          </p>
+          <p class="footer-about">Puedes contactarme mediante discord, usa el boton para copiar mi id</p>
+          <div class="interests">
 
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.js"></script>
-    <script src="assets/js/main.js"></script>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 mt-4">
+                <a id="button-ip" onclick="copyToClipboard('#discord-copy')">
+                  <div class="icon-box">
+                    <i class="bi bi-discord" style="color: rgb(134, 100, 255);"></i>
+                    <h3>Discord</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-4 mt-4">
+                <a href="https://github.com/myclxss" target="_blank">
+                  <div class="icon-box">
+                    <i class="bi bi-github" style="color: white;"></i>
+                    <h3>GitHub</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>servicios</h2>
+        <p>NUESTROS SERVICIOS</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-person-standing"></i></div>
+            <h4>Seriedad</h4>
+            <p>
+              • El proyecto se ejecuta con precisión, siguiendo meticulosamente las ideas y requisitos del cliente.
+            </p>
+            <p>
+              • Siempre nos esforzamos por respetar los plazos, opiniones y demás aspectos pertinentes.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-alarm-fill"></i></div>
+            <h4>Tiempo</h4>
+            <p>
+              • Nuestros proyectos suelen completarse en un plazo estimado de 3 semanas.
+            </p>
+            <p>
+              • Valoramos la perfección en cada
+              detalle, por lo que dedicamos tiempo al planteamiento de ideas y diseño para garantizar resultados
+              excepcionales.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-person-fill-gear"></i></div>
+            <h4>Creatividad</h4>
+            <p>
+              • Partiendo de las ideas y requisitos del cliente, nos esforzamos por convertirlas en realidad de la mejor
+              manera posible.
+            </p>
+            <p>
+              • En casos donde el cliente no tiene una idea definida, también brindamos apoyo en la
+              búsqueda del mejor diseño para cubrir sus necesidades específicas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>portafolio</h2>
+        <p>NUESTROS TRABAJOS</p>
+      </div>
+      <!-- <div class="row">
+        # ESTO SIRVE PARA EL FILTRO #
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Card</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+        </div>
+      </div> -->
+      <div class="row portfolio-container">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/widowmc.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="">EXPLORAR <br>EL PROYECTO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/prismamc.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="">EXPLORAR <br>EL PROYECTO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/vicnix.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="">EXPLORAR <br>EL PROYECTO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/nexoprision.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="">EXPLORAR <br>EL PROYECTO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/meteor.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="">EXPLORAR <br>EL PROYECTO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/guille.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="">EXPLORAR <br>EL PROYECTO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <discord-copy id="discord-copy" class="discord-copy">myclass</discord-copy>
+  </section>
 
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="assets/js/alert.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
