@@ -362,9 +362,6 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .about-me {
   align-items: center;
   justify-content: center;
@@ -383,7 +380,8 @@ section .container {
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
-.about-me .footer-about{
+
+.about-me .footer-about {
   font-style: italic;
   color: rgba(255, 255, 137, 0.767);
 }
@@ -614,7 +612,8 @@ section .container {
 .discord-copy {
   display: none;
 }
-.colors{
+
+.colors {
   color: #d2738a;
   font-size: 34px;
   font-style: italic;
