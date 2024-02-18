@@ -620,3 +620,6 @@ section .container {
   margin: 0;
   font-weight: 700;
 }
+.discord-button{
+  cursor: pointer;
+}
